@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manj Law Associates — Advocates &amp; Legal Consultants | Vehari</title>
+<meta name="description" content="Manj Law Associates — Advocates & Legal Consultants in Vehari, Punjab. Criminal defense, civil litigation, family law, property & inheritance, corporate law and tax filing services. Your Rights, Our Priority.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        navy: { DEFAULT: '#0B1D33', 800: '#132A4F', 700: '#1B3A66', 900: '#071224' },
+        gold: { DEFAULT: '#C9A227', light: '#E5C76B', dark: '#9A7B1A' },
+        cream: '#F8F6F0'
+      },
+      fontFamily: {
+        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif']
+      }
+    }
+  }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; }
+  .gold-rule { height: 2px; background: linear-gradient(90deg, transparent, #C9A227, transparent); }
+  .hero-pattern {
+    background-image:
+      radial-gradient(ellipse 60% 50% at 80% 10%, rgba(201,162,39,.14), transparent 60%),
+      radial-gradient(ellipse 50% 40% at 10% 90%, rgba(201,162,39,.08), transparent 60%);
+  }
+  .practice-card { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+  .practice-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -12px rgba(11,29,51,.25); border-color: #C9A227; }
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.visible { opacity: 1; transform: none; }
+  .faq-body { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+  .faq-item.open .faq-body { max-height: 220px; }
+  .faq-item.open .faq-chevron { transform: rotate(180deg); }
+  .faq-chevron { transition: transform .3s ease; }
+</style>
+</head>
+<body class="font-sans text-slate-800 bg-white">
+
+<!-- ===== Header ===== -->
+<header class="fixed top-0 inset-x-0 z-50 bg-navy-900/95 backdrop-blur border-b border-gold/30">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+    <a href="#top" class="flex items-center gap-2.5">
+      <span class="flex items-center justify-center w-9 h-9 rounded-full border border-gold/70 text-gold font-serif font-bold text-lg leading-none">§</span>
+      <span class="leading-tight">
+        <span class="block font-serif font-bold text-white text-lg tracking-wide">Manj Law Associates</span>
+        <span class="block text-[10px] tracking-[0.22em] uppercase text-gold-light">Advocates &amp; Legal Consultants</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-7 text-sm text-slate-200">
+      <a href="#practice" class="hover:text-gold-light transition">Practice Areas</a>
+      <a href="#about" class="hover:text-gold-light transition">About</a>
+      <a href="#why" class="hover:text-gold-light transition">Why Us</a>
+      <a href="#faq" class="hover:text-gold-light transition">FAQs</a>
+      <a href="#contact" class="hover:text-gold-light transition">Contact</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="https://wa.me/923006265285?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20consult%20Manj%20Law%20Associates%20regarding%20a%20legal%20matter." target="_blank" rel="noopener" class="hidden sm:inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy-900 font-semibold text-sm px-4 py-2 rounded-full transition">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35M12.04 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.83 9.83 0 0 1 6.99 2.9 9.82 9.82 0 0 1 2.9 7c0 5.45-4.45 9.87-9.9 9.87m8.42-18.3A11.82 11.82 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.48-8.41"/></svg>
+        WhatsApp Us
+      </a>
+      <button id="menuBtn" class="md:hidden text-white p-2" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden md:hidden bg-navy-900 border-t border-white/10 px-4 py-3">
+    <a href="#practice" class="block py-2.5 text-slate-200">Practice Areas</a>
+    <a href="#about" class="block py-2.5 text-slate-200">About</a>
+    <a href="#why" class="block py-2.5 text-slate-200">Why Us</a>
+    <a href="#faq" class="block py-2.5 text-slate-200">FAQs</a>
+    <a href="#contact" class="block py-2.5 text-slate-200">Contact</a>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section id="top" class="hero-pattern bg-navy pt-28 pb-16 sm:pt-36 sm:pb-24 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <p class="text-gold-light tracking-[0.3em] uppercase text-xs sm:text-sm font-semibold">Vehari &middot; Punjab &middot; Pakistan</p>
+    <h1 class="font-serif font-bold text-white text-4xl sm:text-6xl leading-tight mt-4">Manj Law Associates</h1>
+    <p class="text-slate-300 text-base sm:text-xl mt-2 tracking-wide">Advocates &amp; Legal Consultants</p>
+    <div class="gold-rule w-40 sm:w-64 mx-auto my-6"></div>
+    <p class="font-serif text-gold-light text-2xl sm:text-3xl italic">&ldquo;Your Rights, Our Priority.&rdquo;</p>
+    <p class="text-slate-300 max-w-2xl mx-auto mt-5 text-sm sm:text-base leading-relaxed">
+      Clear advice and strong representation for criminal, civil, family, property and
+      tax matters — from first consultation to final verdict.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-3 justify-center mt-8">
+      <a href="https://wa.me/923006265285?text=Assalam-o-Alaikum%2C%20I%20would%20like%20to%20consult%20Manj%20Law%20Associates%20regarding%20a%20legal%20matter." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-light text-navy-900 font-semibold px-7 py-3.5 rounded-full transition">
+        Book a Consultation on WhatsApp
+      </a>
+      <a href="tel:+923006265285" class="inline-flex items-center justify-center gap-2 border border-white/40 hover:border-gold-light text-white font-semibold px-7 py-3.5 rounded-full transition">
+        Call 0300 6265285
+      </a>
+    </div>
+    <div class="flex flex-wrap justify-center gap-x-8 gap-y-3 mt-10 text-slate-300 text-xs sm:text-sm">
+      <span class="flex items-center gap-2"><span class="text-gold">✓</span> Advocate High Court</span>
+      <span class="flex items-center gap-2"><span class="text-gold">✓</span> 22,000+ followers on Instagram</span>
+      <span class="flex items-center gap-2"><span class="text-gold">✓</span> Available for urgent matters</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Practice Areas ===== -->
+<section id="practice" class="py-16 sm:py-20 px-4 sm:px-6 bg-cream">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center reveal">
+      <p class="text-gold-dark tracking-[0.25em] uppercase text-xs font-semibold">What We Do</p>
+      <h2 class="font-serif font-bold text-navy text-3xl sm:text-4xl mt-2">Practice Areas</h2>
+      <div class="gold-rule w-24 mx-auto mt-4"></div>
+      <p class="text-slate-600 max-w-xl mx-auto mt-4 text-sm sm:text-base">Focused legal help across the matters that affect your family, your property and your business.</p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">§</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Criminal Defense</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">Complete guidance from FIR to final verdict — bail, investigation, trial and appeals, handled with care at every step.</p>
+      </div>
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">⚖</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Civil Litigation</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">Representation in civil disputes, recovery suits and declarations — prepared thoroughly and argued firmly.</p>
+      </div>
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">♥</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Family Law</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">Sensitive handling of family matters — divorce, khula, child custody and maintenance — with dignity and discretion.</p>
+      </div>
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">⌂</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Property &amp; Inheritance</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">Property disputes, land allotment matters and inheritance / succession cases — protecting what is rightfully yours.</p>
+      </div>
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">◈</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Corporate Law</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">Legal support for businesses — agreements, compliance and corporate matters, so you can focus on running your work.</p>
+      </div>
+      <div class="practice-card reveal bg-white border border-slate-200 rounded-2xl p-6">
+        <div class="w-11 h-11 rounded-full bg-navy text-gold-light flex items-center justify-center font-serif font-bold text-xl">₨</div>
+        <h3 class="font-serif font-bold text-navy text-xl mt-4">Tax &amp; Filer Services</h3>
+        <p class="text-slate-600 text-sm leading-relaxed mt-2">NTN registration, income tax return filing and filer status — stay compliant, avoid penalties and keep your record clean.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<section id="about" class="py-16 sm:py-20 px-4 sm:px-6 bg-white">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <div class="reveal">
+      <p class="text-gold-dark tracking-[0.25em] uppercase text-xs font-semibold">About the Firm</p>
+      <h2 class="font-serif font-bold text-navy text-3xl sm:text-4xl mt-2">Led by experience.<br>Driven by results.</h2>
+      <div class="gold-rule w-24 mt-4"></div>
+      <p class="text-slate-600 leading-relaxed mt-5 text-sm sm:text-base">
+        Manj Law Associates is a Vehari-based law firm led by <strong class="text-navy">Aman Ullah Manj, Advocate High Court</strong>.
+        The firm represents clients before the courts in criminal, civil, family, property and corporate matters,
+        and helps individuals and businesses with tax filing and compliance.
+      </p>
+      <p class="text-slate-600 leading-relaxed mt-4 text-sm sm:text-base">
+        Every case is prepared on its own facts — explained in plain words, so you always know
+        where your matter stands and what comes next.
+      </p>
+      <p class="font-serif italic text-navy-800 text-lg mt-6 border-l-2 border-gold pl-4">
+        &ldquo;Justice is not just a goal, it is a commitment to every person.&rdquo;
+      </p>
+    </div>
+    <div class="reveal bg-navy rounded-2xl p-7 sm:p-9 text-white">
+      <h3 class="font-serif font-bold text-2xl">Aman Ullah Manj</h3>
+      <p class="text-gold-light text-sm tracking-wide mt-1">Advocate High Court &middot; Senior Legal Expert</p>
+      <div class="gold-rule w-full my-5 opacity-60"></div>
+      <ul class="space-y-3 text-sm text-slate-200">
+        <li class="flex gap-3"><span class="text-gold">—</span> Criminal, civil, family and property litigation</li>
+        <li class="flex gap-3"><span class="text-gold">—</span> Writ petitions and constitutional matters</li>
+        <li class="flex gap-3"><span class="text-gold">—</span> Tax filing, NTN registration and compliance</li>
+        <li class="flex gap-3"><span class="text-gold">—</span> Legal drafting and consultation</li>
+      </ul>
+      <a href="https://www.instagram.com/amanullahmanj" target="_blank" rel="noopener" class="inline-flex items-center gap-2 mt-7 text-gold-light hover:text-white text-sm font-semibold transition">
+        Follow on Instagram — @amanullahmanj
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M9 7h8v8"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why Choose Us ===== -->
+<section id="why" class="py-16 sm:py-20 px-4 sm:px-6 bg-navy hero-pattern">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center reveal">
+      <p class="text-gold-light tracking-[0.25em] uppercase text-xs font-semibold">Our Values</p>
+      <h2 class="font-serif font-bold text-white text-3xl sm:text-4xl mt-2">Why Clients Trust Us</h2>
+      <div class="gold-rule w-24 mx-auto mt-4"></div>
+    </div>
+    <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 mt-10">
+      <div class="reveal text-center bg-white/5 border border-white/10 rounded-2xl p-5">
+        <p class="font-serif font-bold text-gold-light text-2xl">Honesty</p>
+        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">Straight answers about your case — no false promises.</p>
+      </div>
+      <div class="reveal text-center bg-white/5 border border-white/10 rounded-2xl p-5">
+        <p class="font-serif font-bold text-gold-light text-2xl">Integrity</p>
+        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">Your matter handled with the highest professional standards.</p>
+      </div>
+      <div class="reveal text-center bg-white/5 border border-white/10 rounded-2xl p-5">
+        <p class="font-serif font-bold text-gold-light text-2xl">Dedication</p>
+        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">Every case prepared thoroughly, whatever its size.</p>
+      </div>
+      <div class="reveal text-center bg-white/5 border border-white/10 rounded-2xl p-5">
+        <p class="font-serif font-bold text-gold-light text-2xl">Justice</p>
+        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">Your rights defended firmly, at every stage.</p>
+      </div>
+      <div class="reveal text-center bg-white/5 border border-white/10 rounded-2xl p-5 col-span-2 lg:col-span-1">
+        <p class="font-serif font-bold text-gold-light text-2xl">Experience</p>
+        <p class="text-slate-300 text-xs sm:text-sm mt-2 leading-relaxed">Years of courtroom practice across Punjab.</p>
+      </div>
+    </div>
+    <div class="reveal max-w-3xl mx-auto mt-12">
+      <h3 class="text-center font-serif font-bold text-white text-2xl">How it works</h3>
+      <div class="grid sm:grid-cols-3 gap-4 mt-6 text-center">
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+          <p class="text-gold font-serif font-bold text-3xl">1</p>
+          <p class="text-white font-semibold mt-2 text-sm">Message us</p>
+          <p class="text-slate-300 text-xs sm:text-sm mt-1">WhatsApp or call — briefly tell us your matter.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+          <p class="text-gold font-serif font-bold text-3xl">2</p>
+          <p class="text-white font-semibold mt-2 text-sm">Consultation</p>
+          <p class="text-slate-300 text-xs sm:text-sm mt-1">We listen, review your documents and explain your options.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-5">
+          <p class="text-gold font-serif font-bold text-3xl">3</p>
+          <p class="text-white font-semibold mt-2 text-sm">We take it forward</p>
+          <p class="text-slate-300 text-xs sm:text-sm mt-1">Your case is prepared and followed up, step by step.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQs ===== -->
+<section id="faq" class="py-16 sm:py-20 px-4 sm:px-6 bg-cream">
+  <div class="max-w-3xl mx-auto">
+    <div class="text-center reveal">
+      <p class="text-gold-dark tracking-[0.25em] uppercase text-xs font-semibold">Common Questions</p>
+      <h2 class="font-serif font-bold text-navy text-3xl sm:text-4xl mt-2">Frequently Asked Questions</h2>
+      <div class="gold-rule w-24 mx-auto mt-4"></div>
+    </div>
+    <div class="mt-10 space-y-3">
+      <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl">
+        <button class="faq-toggle w-full flex items-center justify-between gap-4 text-left px-6 py-4 font-semibold text-navy text-sm sm:text-base">
+          Do I need an appointment before visiting the office?
+          <svg class="faq-chevron w-5 h-5 shrink-0 text-gold-dark" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="faq-body"><p class="px-6 pb-5 text-slate-600 text-sm leading-relaxed">It is best to message or call first so a time can be fixed for you. Walk-ins are welcome, but an appointment means you are seen without waiting.</p></div>
+      </div>
+      <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl">
+        <button class="faq-toggle w-full flex items-center justify-between gap-4 text-left px-6 py-4 font-semibold text-navy text-sm sm:text-base">
+          What should I bring to my first consultation?
+          <svg class="faq-chevron w-5 h-5 shrink-0 text-gold-dark" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="faq-body"><p class="px-6 pb-5 text-slate-600 text-sm leading-relaxed">Bring your CNIC and any documents related to your matter — notices, agreements, court papers or property records. The more we can see, the clearer the advice.</p></div>
+      </div>
+      <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl">
+        <button class="faq-toggle w-full flex items-center justify-between gap-4 text-left px-6 py-4 font-semibold text-navy text-sm sm:text-base">
+          How is the fee decided?
+          <svg class="faq-chevron w-5 h-5 shrink-0 text-gold-dark" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="faq-body"><p class="px-6 pb-5 text-slate-600 text-sm leading-relaxed">The fee depends on the nature and stage of your matter. It is discussed openly during the consultation, before any work begins — so there are no surprises later.</p></div>
+      </div>
+      <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl">
+        <button class="faq-toggle w-full flex items-center justify-between gap-4 text-left px-6 py-4 font-semibold text-navy text-sm sm:text-base">
+          Can I consult from outside Vehari?
+          <svg class="faq-chevron w-5 h-5 shrink-0 text-gold-dark" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="faq-body"><p class="px-6 pb-5 text-slate-600 text-sm leading-relaxed">Yes. Message us on WhatsApp first — initial discussion can happen on call or WhatsApp, and we will guide you on the next step for your matter.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="py-16 sm:py-20 px-4 sm:px-6 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center reveal">
+      <p class="text-gold-dark tracking-[0.25em] uppercase text-xs font-semibold">Get In Touch</p>
+      <h2 class="font-serif font-bold text-navy text-3xl sm:text-4xl mt-2">Talk To Us About Your Case</h2>
+      <div class="gold-rule w-24 mx-auto mt-4"></div>
+      <p class="text-slate-600 max-w-xl mx-auto mt-4 text-sm sm:text-base">Message or call — we will get back to you as soon as possible.</p>
+    </div>
+    <div class="grid sm:grid-cols-3 gap-5 mt-10">
+      <a href="https://wa.me/923006265285" target="_blank" rel="noopener" class="reveal block bg-navy rounded-2xl p-6 text-center hover:bg-navy-800 transition">
+        <p class="text-gold-light font-semibold text-sm tracking-wide uppercase">WhatsApp</p>
+        <p class="text-white font-serif font-bold text-2xl mt-2">0300 6265285</p>
+        <p class="text-slate-300 text-xs mt-2">Tap to start a chat</p>
+      </a>
+      <a href="tel:+923006265285" class="reveal block bg-cream border border-slate-200 rounded-2xl p-6 text-center hover:border-gold transition">
+        <p class="text-gold-dark font-semibold text-sm tracking-wide uppercase">Call Us</p>
+        <p class="text-navy font-serif font-bold text-2xl mt-2">0300 6265285</p>
+        <p class="text-slate-500 text-xs mt-2">Tap to call directly</p>
+      </a>
+      <a href="https://www.instagram.com/amanullahmanj" target="_blank" rel="noopener" class="reveal block bg-cream border border-slate-200 rounded-2xl p-6 text-center hover:border-gold transition">
+        <p class="text-gold-dark font-semibold text-sm tracking-wide uppercase">Instagram</p>
+        <p class="text-navy font-serif font-bold text-2xl mt-2">@amanullahmanj</p>
+        <p class="text-slate-500 text-xs mt-2">22,000+ followers</p>
+      </a>
+    </div>
+    <div class="reveal bg-cream border border-slate-200 rounded-2xl p-6 sm:p-8 mt-5 text-center">
+      <p class="text-gold-dark font-semibold text-sm tracking-wide uppercase">Office</p>
+      <p class="text-navy font-semibold mt-2 text-sm sm:text-base">Office No. 207, 2nd Floor, Al-Rehman Plaza, Near City Courts, Vehari, Punjab</p>
+      <p class="text-slate-500 text-xs sm:text-sm mt-2">Please message or call before visiting, so a time can be fixed for you.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="bg-navy-900 text-slate-400 py-10 px-4 sm:px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <p class="font-serif font-bold text-white text-xl">Manj Law Associates</p>
+    <p class="text-xs tracking-[0.22em] uppercase text-gold-light mt-1">Advocates &amp; Legal Consultants &middot; Vehari</p>
+    <div class="gold-rule w-32 mx-auto my-5 opacity-60"></div>
+    <p class="text-xs sm:text-sm">Office No. 207, 2nd Floor, Al-Rehman Plaza, Near City Courts, Vehari, Punjab &middot; 0300 6265285</p>
+    <p class="text-xs mt-4 text-slate-500">© 2026 Manj Law Associates. All rights reserved.</p>
+    <p class="text-[11px] mt-3 text-slate-600">Sample design — a free homepage draft prepared for Manj Law Associates.</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a href="https://wa.me/923006265285" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" class="fixed bottom-5 right-5 z-50 w-14 h-14 rounded-full bg-[#25D366] shadow-lg shadow-black/30 flex items-center justify-center hover:scale-105 transition">
+  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.5 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35M12.04 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88a9.83 9.83 0 0 1 6.99 2.9 9.82 9.82 0 0 1 2.9 7c0 5.45-4.45 9.87-9.9 9.87m8.42-18.3A11.82 11.82 0 0 0 12.04 0C5.5 0 .16 5.34.16 11.9c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.9 0-3.18-1.24-6.16-3.48-8.41"/></svg>
+</a>
+
+<script>
+  // Mobile menu
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', function () { mobileMenu.classList.toggle('hidden'); });
+  mobileMenu.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () { mobileMenu.classList.add('hidden'); });
+  });
+  // FAQ accordion
+  document.querySelectorAll('.faq-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var item = btn.closest('.faq-item');
+      var wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function (i) { i.classList.remove('open'); });
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+  // Reveal on scroll
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+</script>
+</body>
+</html>
